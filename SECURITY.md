@@ -2,12 +2,12 @@
 
 ## Project Scope
 
-This repository is a **machine learning project** for ECG arrhythmia classification using the MIT-BIH dataset. It is intended for **academic and research purposes only**, not for deployment in clinical or production environments. :contentReference[oaicite:2]{index=2}
+This repository is a machine learning project for ECG arrhythmia classification using the MIT-BIH dataset. It is intended for academic and research purposes only, not for deployment in clinical or production environments.
 
 The code includes Jupyter notebooks and reports that demonstrate:
 - Data preprocessing
-- Model training and evaluation (SVM, Random Forest, MLP)
-- Performance comparison using accuracy, precision, recall, F1 score :contentReference[oaicite:3]{index=3}
+- Model training and evaluation, including SVM, Random Forest, and MLP approaches
+- Performance comparison using accuracy, precision, recall, and F1 score
 
 ---
 
@@ -15,42 +15,45 @@ The code includes Jupyter notebooks and reports that demonstrate:
 
 | Version or Branch | Supported |
 | ----------------- | --------- |
-| `main` (latest)   | ✅ |
-| older branches / forks | ❌ |
+| `main` (latest)   | Yes |
+| Older branches or forks | No |
 
-Only the `main` branch is actively maintained. Experimental or old forks may not receive updates.
+Only the `main` branch is actively maintained. Experimental or older forks may not receive updates.
 
 ---
 
 ## Reporting Security Issues
 
-If you discover a vulnerability in this repository, please report it responsibly:
+If you discover a vulnerability in this repository, please report it responsibly.
 
 ### How to Report
-- **Do not** open a public GitHub issue.
-- File a **private security advisory** or contact the maintainer via GitHub.
+
+- Do not open a public GitHub issue for security reports.
+- File a private security advisory if available, or contact the maintainer privately through GitHub.
 
 ### What to Include
+
 Please include:
 - A clear description of the issue
-- Steps to reproduce (if applicable)
-- Potential risks (e.g., data handling, notebook execution issues)
-- Suggested fix or mitigation (optional)
+- Steps to reproduce, if applicable
+- Potential risks, such as data handling or unsafe notebook execution
+- Suggested fix or mitigation, if available
 
 ### Response Timeline
-- Acknowledgement within **3–5 business days**
-- Assessment and fix (where applicable) as soon as possible
+
+- Acknowledgement within 3-5 business days
+- Assessment and fix, where applicable, as soon as practical based on severity
 
 ---
 
 ## Data and Model Safety
 
-This repository uses the **MIT-BIH Arrhythmia Dataset** (public ECG dataset) for educational classification tasks. Users of this repository should note:
+This repository uses the MIT-BIH Arrhythmia Dataset for educational classification tasks. Users should note:
 
 - The dataset contains physiological data and should be handled with appropriate care
-- Not intended for clinical decision-making
-- Do not expose real patient data or credentials in the repo
-- Any included `.env`, API keys, or private data **must be removed before publishing**
+- Models from this repository are not intended for clinical decision-making
+- Real patient data, credentials, API keys, and private environment files must not be committed
+- Any accidental exposure of sensitive data should be reported and removed promptly
 
 ---
 
@@ -58,14 +61,14 @@ This repository uses the **MIT-BIH Arrhythmia Dataset** (public ECG dataset) for
 
 By using this repository, you agree not to:
 - Deploy models for real-world medical diagnosis
-- Use notebooks/scripts with sensitive data without proper consent
-- Bypass security controls or run untrusted code without review
+- Use notebooks or scripts with sensitive data without proper consent
+- Run untrusted notebooks, scripts, models, or data files without review
 
 ---
 
 ## Contribution Guidelines
 
 Contributions are welcome. Please follow good practices:
-- Keep code, notebooks, and data handling clean and readable
-- Do not commit sensitive credentials or datasets
-- Document significant experiments and results clearly
+- Keep code, notebooks, and data handling clear and reproducible
+- Do not commit sensitive credentials or private datasets
+- Document significant experiments, configurations, and results clearly
